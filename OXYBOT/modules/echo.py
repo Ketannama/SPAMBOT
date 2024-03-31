@@ -29,9 +29,9 @@ async def echo(event):
             if user_id in OXYGEN:
                 await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ🙏.")
             elif user_id == OWNER_ID:
-                await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ😎.")
+                await event.reply("𝗯𝘀𝗱𝗸 𝗯𝗮𝗮𝗽 𝗵 𝘄𝗼 𝘁𝗲𝗿𝗮😎.")
             elif user_id in SUDO_USERS:
-                await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ🤒.")
+                await event.reply("𝗮𝗯𝗲 𝘆𝗲 𝗯𝗵𝗶 𝘀𝗮𝗻𝗮𝘁𝗮𝗻𝗶 𝗸𝗮 𝗯𝗲𝘁𝗮 𝗵🤒.")
             else:
                 try:
                     alt = Get(base64.b64decode('QFRoZUFsdHJvbg=='))
@@ -79,7 +79,7 @@ async def rmecho(event):
             else:
                 await event.reply("» ᴇᴄʜᴏ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴅɪꜱᴀʙʟᴇᴅ !!")
         else:
-            await event.reply(f"𝗥𝗲𝗺𝗼𝘃𝗲 𝗘𝗰𝗵𝗼:\n  » {hl}rmecho <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await event.reply(f"REMOVE ECHO:\n  » {hl}rmecho <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
 
 @X1.on(events.NewMessage(incoming=True))
