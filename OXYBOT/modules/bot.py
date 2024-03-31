@@ -117,7 +117,7 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"t(f"𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 𝗦𝗔𝗡𝗔𝗧𝗔𝗡𝗜 𝗞𝗔 𝗕 !!")
+            await ok.edit(f"t(f"𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 𝗦𝗔𝗡𝗔𝗧𝗔𝗡𝗜 𝗞𝗔  !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
