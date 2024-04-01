@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 THODA WAIT KR EK BETA ADD KRA H ABHI TIYAR HO RHA GAND MARNE KE LIYE`")
+        await e.reply(f"`𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 ʙsᴅᴋ ᴛʜᴏᴅɪ ᴀᴜʀ ɢᴀɴᴅ ᴍᴀʀɴᴇ ᴅᴇᴛᴀ ɴᴀ ɪsᴋɪ ʀᴀɴᴅɪ ᴋ ᴘɪʟʟᴇ...🤧`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"»(f"»𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 𝗡𝗘𝗪 𝗕𝗘𝗧𝗔 𝗔𝗗𝗗")
+        ok = await event.reply(f"»(f"»𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 ")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -123,7 +123,7 @@ async def addsudo(event):
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `ADD KAR DIYE HAI EK AUR BETA LIST ME...BOT CHODNE KE LIYE READY HO RHA H`")
+            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `𝐓𝐇𝐎𝐃𝐀 𝐖𝐀𝐈𝐓 𝐊𝐑 𝐄𝐊 𝐁𝐄𝐓𝐀 𝐀𝐃𝐃 𝐊𝐑𝐀 𝐇 𝐀𝐁𝐇𝐈 𝐓𝐈𝐘𝐀𝐑 𝐇𝐎 𝐑𝐇𝐀 𝐆𝐀𝐍𝐃 𝐌𝐀𝐑𝐍𝐄 𝐊𝐄 𝐋𝐈𝐘𝐄..........💀`")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
