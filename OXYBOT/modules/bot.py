@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"»(f"»𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 ")
+        ok = await event.reply(f"»(f"»𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 𝐌𝐄𝐑𝐄 [𝐌𝐀𝐒𝐓𝐄𝐑](https://t.me/IISANATANI_XDII) 𝐊𝐀 𝐍𝐀𝐘𝐀 𝐁𝐄𝐓𝐀 𝐀𝐃𝐃𝐄𝐃__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
