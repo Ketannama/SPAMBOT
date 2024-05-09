@@ -185,4 +185,4 @@ async def show_sudo_users(event):
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 𝗢𝗪𝗡𝗘𝗥.")
+        await event.reply(" 𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼 ka baap.")
