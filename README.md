@@ -2,7 +2,7 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-[<img src="https://graph.org/file/df89b4c1f8ecfdfbc20d5.jpg"/>]
+[<img src="https://telegra.ph/file/b9a77fdb3c7edf9acc8e0.jpg"/>]
 
 > ⭐️ Thanks to everyone for using this op ˹𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼. That is the greatest pleasure we have !
 
