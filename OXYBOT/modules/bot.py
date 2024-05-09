@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"»(f"»𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 𝐌𝐄𝐑𝐄 [𝐌𝐀𝐒𝐓𝐄𝐑](https://t.me/IISANATANI_XDII) 𝐊𝐀 𝐍𝐀𝐘𝐀 𝐁𝐄𝐓𝐀 𝐀𝐃𝐃𝐄𝐃__")
+        ok = await event.reply(f"»(f"»𝐌𝐄𝐑𝐄 [𝐌𝐀𝐒𝐓𝐄𝐑](https://t.me/IISANATANI_XDII) 𝐊𝐀 𝐍𝐀𝐘𝐀 𝐁𝐄𝐓𝐀 𝐀𝐃𝐃𝐄𝐃__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -127,7 +127,7 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("»𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 BSDK SIRF SANATANI SUDO DE SHKTA H TU GAND MRA....")
+        await event.reply("»𝙳𝙰𝚁𝙺 𝚇 𝚂𝙿𝙰𝙼🫧 BSDK 𝙈𝙔 [𝐌𝐀𝐒𝐓𝐄𝐑](https://t.me/IISANATANI_XDII) 𝗖𝗔𝗡 𝗚𝗜𝗩𝗘 𝗦𝗨𝗗𝗢... TU GAND MRA....")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
