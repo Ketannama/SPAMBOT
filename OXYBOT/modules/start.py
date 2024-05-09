@@ -35,7 +35,7 @@ async def start(event):
         TEXT = f"**ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})**\n"
         await event.client.send_file(
             event.chat_id,
-            "https://graph.org/file/df89b4c1f8ecfdfbc20d5.jpg",
+            "https://graph.org/file/a8edd97ea64ef64856804.jpg",
             caption=TEXT,
             buttons=START_BUTTON
         )
